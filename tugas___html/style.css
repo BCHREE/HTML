@@ -1,33 +1,32 @@
 .avatar {
-  width: 220px;          /* atau 250px sesuai kebutuhan */
-  height: 220px;         /* samakan dengan width untuk bulat sempurna */
-  object-fit: cover;     /* isi area tanpa distorsi */
+  width: 220px; /* atau 250px sesuai kebutuhan */
+  height: 220px; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
   border-radius: 50%;
   border: 3px solid #e5e7eb;
 }
 .logo {
-    border-radius: 12px;
-    width: 200px;
-    display: block;
-    margin: auto;
+  border-radius: 12px;
+  width: 200px;
+  display: block;
+  margin: auto;
 }
 .Container {
   margin: auto;
-  width:70%;
+  width: 70%;
   text-align: center;
 }
 #box1 {
-    color: darkgoldenrod;
-     text-align: center;
+  color: darkgoldenrod;
+  text-align: center;
 }
 #box2 {
-    color: red;
-     text-align: center;
+  color: red;
+  text-align: center;
 }
 #box3 {
-    color: red;
-    margin-right: 50%;
-    
+  color: red;
+  margin-right: 50%;
 }
 .menu {
   background: #fff;
@@ -44,53 +43,53 @@
   background: #fff;
   height: 80px;
   width: 850px;
-   padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+  padding-left: 10px; /* ruang agar teks tidak mepet garis */
   border-left: 4px solid;
 }
 .box5 {
-    border: 1px solid #e5e7eb;
-    border-radius: 10px;
-    width: 850px;
-    height: 110px;
-    background:#fff;
-    color: black;
-      padding-left: 10px;      /* ruang agar teks tidak mepet garis */
-    border-left: 4px solid;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  width: 850px;
+  height: 110px;
+  background: #fff;
+  color: black;
+  padding-left: 10px; /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid;
 }
 #box7 {
-    background: #e5e7eb; /* biar kotak putih kelihatan */
-    border: 2px;
-    padding-left: 10px;
-    width: 850px;
-    border: 2px;
-    border-radius: 10px;
-    margin-left: 30%;
+  background: #e5e7eb; /* biar kotak putih kelihatan */
+  border: 2px;
+  text-align: center;
+  width: 700px;
+  border: 2px;
+  border-radius: 10px;
+  margin: auto;
 }
 #box8 {
-    background: whitesmoke;
-    border-radius: 10px;
-      padding: 10px;
-      width: 400px;
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  width: 850px;
+  margin-left: 15%;
 }
 #box9 {
-        background: whitesmoke;
-      padding: 10px;
-      width: 300px;
-      border-radius: 10px;
+  background: whitesmoke;
+  padding: 10px;
+  width: 850px;
+  border-radius: 10px;
+  margin-left: 15%;
 }
 #box10 {
-        background: whitesmoke;
-      padding: 20px;
-      width: 250px;
-      border-radius: 10px;
+  background: whitesmoke;
+  padding: 20px;
+  width: 830px;
+  border-radius: 10px;
+  margin-left: 15%;
 }
 #box11 {
-      margin-right: 60%;
+  margin-right: 60%;
 }
 #box12 {
-      margin-right: 60%;
-}
-#box13 {
-      margin-right: 80%;
+  margin-right: 60%;
 }
 
