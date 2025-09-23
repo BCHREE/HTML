@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+    <style>
+        table {
+            width: 70%;
+            /* gabungkan border table jadi 1 */
+            border-collapse: collapse;
+        }
+        /* pakai, (koma) untuk multi tag/selecetor */
+        td {
+            padding: 1%;
+        }
+        th {
+            color: whitesmoke;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Belajar table
+    </h1>
+    <hr>
+    <table border="1">
+        <!-- tr = tablerow ->membuat table baru -->
+        <tr>
+            <th>No</th>
+            <th>Nama Lengkap</th>
+            <th>Asal Kota</th>
+            <th>Hubungan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Azka</td>
+            <td>Depok</td>
+            <td>ITU GW</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Indy</td>
+            <td>Salatiga</td>
+            <td>Hanya sebatas Teman</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jeni</td>
+            <td>Bali</td>
+            <td>Mantan</td>
+        </tr>
+    </table>
+    <h2>Daftar Belanja</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Barang</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td>1</td>
+                 <td>teh desa</td>
+                 <td>2.500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>naspad</td>
+                <td>30.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td><b>Total Pengeluaran</b></td>
+                <td><b>32.500</b></td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Kalender</h2>
+    <p>
+        <b>
+            Belajar Attribute rowspan dan colspan
+        </b>
+    </p>
+    <table border="3">
+        <thead>
+            <tr>
+                <th rowspan="3">NO</th>
+                <th colspan="8">Bulan Oktober</th>
+            </tr>
+            <tr>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jum`at</th>
+                <th>Sabtu</th>
+                <th>Ahad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
