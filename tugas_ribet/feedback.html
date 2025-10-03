@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="box19">
+  <h1>
+    FORM 
+  </h1>
+  </div>
+  <hr>
+  <div class="header">
+    <div class="nav">
+  <a href="biodata.html">Biodata</a>
+    <a href="index.html">Pempek 812</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="jadwal.html" >Jadwal</a>
+    <a href="feedback.html" class="active">feedback</a>
+      </div>
+    </div>
+      <hr>
+      <div id="box22">
+    <h2>
+        Form HTML
+    </h2>
+      </div>
+    <hr>
+     <div class="feedback">
+    <form action="https://httpbin.org/post" method="post">
+      <h3>
+        Formulir Kontak dan Saran
+      </h3>
+        <!-- input:kolom input serbaguna (pendek) -->
+         <!-- Tips shortcut: input: [type nya] -->
+            <label for="namaLengkap">Nama Lengkap</label>
+        <input type="text" name="Nama_lengkap" id="namaLengkap">
+    
+          <br>
+            <label for="umur">Umur</label>
+            <input type="text" name="umur" id="umur">
+          <br>
+            <label for="tanggalLahir">Tanggal Lahir</label>
+            <input type="date" name="Tanggal_lahir" id="tanggalLahir">
+          <br>
+            <label for="AlamatEmail">Alamat Email</label>
+            <input type="text" name="email" id="AlamatEmail">
+            <br>
+            <label for="Password">Password</label>
+            <input type="text" name="Password" id="Password">
+            <p>
+                Minat bahasa
+            </p>
+            <div class="input">
+            <input type="radio" name="Bahasa" id="English">
+            <label for="English">English</label>
+            <input type="radio" name="Bahasa" id="Arabic">
+            <label for="Arabic">Arabic</label>
+            <input type="radio" name="Bahasa" id="Chinnese">
+            <label for="Chinnese">Chinnese</label>
+            </div>
+            <br>
+            <label for="asalDaerah">AsalDaerah</label>
+            <select name="asalDaerah" id="asalDaerah">
+                <option value="PRJ">Purworejo</option>
+                <option value="JKT48">Jakarta</option>
+                <option value="SBY">Surabaya</option>
+            </select>
+        <br>
+            <label for="note">Catatan</label>
+            <textarea name="note" id="note"></textarea>
+          <br>
+            <!-- action button -->
+             <!-- tips shortcut: button:(type reset) -->
+          <div class="grid">
+            <button type="reset">Batal</button>
+            <button type="submit">Simpan</button>
+          </div>
+    </form>
+     </div>
+    </div>
+</body>
+</html>

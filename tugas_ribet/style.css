@@ -1,0 +1,267 @@
+/* index html */
+.logo {
+  border-radius: 12px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+.Container {
+  margin: auto;
+  width: 70%;
+  background-color: aliceblue;
+}
+#box1 {
+  color: darkgoldenrod;
+  text-align: center;
+}
+#box2 {
+  color: red;
+  text-align: center;
+}
+#box3 {
+  margin-right: 50%;
+}
+.menu {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  width: 800px;
+  height: 100px;
+   border-left: 4px solid;
+  padding-left: 10px;
+}
+#box4 {
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  background: #fff;
+  height: 80px;
+  width: 800px;
+  padding-left: 20px;
+ border-left: 4px solid;
+}
+.box5 {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  width: 800px;
+  height: 110px;
+  background: #fff;
+  color: black;
+  padding-left: 10px; /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid;
+}
+#box6 {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  width: 850px;
+   height: 50px;
+  background: #fff;
+  color: black;
+  border-left: 4px solid;
+  padding-left: 10px;
+}
+#box11 {
+  margin-right: 60%;
+  width: 400px;
+}
+#box15 {
+  text-align: center;
+  color:  blue;
+}
+#box16 {
+  margin-top: 20px;
+}
+#box18 {
+  color: gray;
+  text-align: center;
+}
+.index {
+  background: #e5e7eb;
+  padding: 20px;
+  width: 830px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+
+
+/* biodata html */
+.Container {
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px;
+}
+.Container h2 {
+  margin-left: 20px;
+  
+}
+.Container h3 {
+  margin-left: 20px;
+}
+#box7 h1{
+  color: blue; 
+  text-align: center;
+}
+#box7 p {
+  color: gray;
+  text-align: center;
+
+}
+#box8 {
+  background: #e5e7eb;
+  padding: 20px;
+  width: 830px;
+  border-radius: 20px;
+}
+#box9 {
+  background: #e5e7eb;
+  padding: 20px;
+  width: 830px;
+  border-radius: 20px;
+}
+#box10 {
+  background: #e5e7eb;
+  padding: 20px;
+  width: 830px;
+  border-radius: 20px;
+}
+#box13 {
+    text-align: center;
+    padding-top: 1%;
+}
+#box14 {
+  background-color: #e5e7eb;
+  width: 850px;
+  padding: 10px;
+  border-radius: 20px
+}
+.Background {
+  margin: auto;
+  width: 70%;
+  border-radius: 20px;
+}
+.avatar {
+  width: 220px; /* atau 250px sesuai kebutuhan */
+  height: 220px; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
+  border-radius: 50%;
+}
+
+/* el tombol */
+
+
+    /* tombol aktif */
+    .header {
+      text-align: center;
+      padding: 15px;
+      background-color: whitesmoke;
+    }
+    .nav {
+      margin-top: 10px;
+      padding: 10px;
+}
+.nav a {
+  text-decoration: none; /* hapus garis bawah */
+  border-radius: 22px; /* ubah sudut jadi bulat */
+  color: #1d4ed8;
+  padding: 6px 14px;
+  /* padding-top: 6px; */
+  /* padding-bottom: 6px; */
+  /* padding-left: 14px; */
+  /* padding-right: 14px; */
+  margin-right: 8px; /* jarak luar antar link */
+}
+    .nav a.active {
+      background: #1e40af;
+      color: white;
+      border-color: #1e40af;
+    }
+
+    /* Jadwal */
+    #box16 {
+      color: blue; 
+  text-align: center;
+    }
+
+    #box17 {
+      text-align: center;
+    }
+    table {
+      width: 70%;
+      margin: auto;
+    }
+    table th {
+      background-color: #1e40af;
+      color: whitesmoke;
+    }
+    table td {
+      background-color: whitesmoke;
+      color: #333;
+    }
+
+    /* feedback */
+
+    .feedback {
+    background: #e5e7eb;
+  padding: 20px;
+  width: 830px;
+  border-radius: 20px;
+  margin: auto;
+    }
+    #box22 {
+      text-align: center;
+    }
+    .feedback label, input, select, textarea {
+  display: block;
+}
+#box19 {
+  text-align: center;
+  color: blue;
+}
+
+
+
+    /* galery */
+    #box20 {
+      text-align: center;
+      color: blue;
+    }
+/* === Main Content === */
+main {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  color: #1d4ed8;
+  margin-bottom: 15px;
+}
+
+
+
+.card {
+  background: white;
+  display: inline-block;
+  margin: 50px;
+}
+/* === Foto di dalam card === */
+.card img {
+  width: 100%;
+  height: 200px;          /* semua card tinggi sama */
+  object-fit: contain;    /* foto tidak kepotong */
+  background: #e5e7eb;    /* warna abu buat ruang kosong */
+  display: block;
+}
+
+/* === Deskripsi foto === */
+.card p {
+  padding: 12px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+
+
