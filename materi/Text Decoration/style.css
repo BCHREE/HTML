@@ -1,0 +1,70 @@
+.text-tengah {
+    text-align: center;
+}
+.text-kiri {
+    text-align: left;
+}
+.text-kanan {
+    text-align: right;
+}
+.text-rata {
+    text-align: justify;
+}
+
+/* Atur ketebalan */
+.tipis{
+    color: brown;
+    font-weight: 100;
+    font-size: small;
+}
+.agak-tebal {
+    color: aqua;
+    font-weight: 500;
+    font-size: 30px;
+}
+.tebal {
+    color: blueviolet;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.button-ig {
+    text-decoration: none;
+    background-color:  #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: black;
+    padding: 4px 6px;
+    border-radius: 10px;
+}
+
+/* Atur jarak tinggi antar baris teks */
+.pendek {
+    line-height: 0.8;
+    background-color: coral;
+}
+.tinggi {
+    line-height: 2;
+    background-color: #eaafc8;
+    color: darkslategrey;
+}
+.rapat {
+    letter-spacing: 2px;
+    background-color: #eaafc8;
+    color: deeppink;
+}
+.renggang {
+    letter-spacing: 6px;
+    background-color: blueviolet;
+    color: black;
+}
+
+/* Atur jarak antar kata */
+.dekat {
+    word-spacing: 3px;
+    background-color: blue;
+}
+.jauh {
+    word-spacing: 6px;
+    background-color: cornflowerblue;
+}

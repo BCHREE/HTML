@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+    <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+    <div class="container">
+    <h1>
+        Form HTML
+    </h1>
+    <hr>
+    <h2>
+        HTML 5 Form
+    </h2>
+    <hr>
+    <h2>
+        Input
+    </h2>
+    <form>
+        <!-- input:kolom input serbaguna (pendek) -->
+         <!-- Tips shortcut: input: [type nya] -->
+          <div>
+            <label for="namaLengkap">Nama Lengkap</label>
+        <input type="text" name="Nama_lengkap" id="namaLengkap">
+          </div>
+          <br>
+          <div>
+            <label for="umur">Umur</label>
+            <input type="text" name="umur" id="umur">
+          </div>
+          <br>
+          <div>
+            <label for="tanggalLahir">Tanggal</label>
+            <input type="date" name="Tanggal_lahir" id="tanggalLahir">
+          </div>
+          <br>
+          <div>
+            <label for="AlamatEmail">Alamat Email</label>
+            <input type="text" name="email" id="AlamatEmail">
+          </div>
+          <div>
+            <label for="Password">Password</label>
+            <input type="text" name="Password" id="Password"
+          </div>
+          <div>
+            <p>
+                Minat bahasa
+            </p>
+            <input type="radio" name="Bahasa" id="English">
+            <label for="English">English</label>
+            <input type="radio" name="Bahasa" id="Arabic">
+            <label for="Arabic">Arabic</label>
+            <input type="radio" name="Bahasa" id="Chinnese">
+            <label for="Chinnese">Chinnese</label>
+          </div>
+          <br>
+          <div>
+            <label for="asalDaerah">AsalDaerah</label>
+            <select name="asalDaerah" id="asalDaerah">
+                <option value="PRJ">Purworejo</option>
+                <option value="JKT48">Jakarta</option>
+                <option value="SBY">Surabaya</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="note">Catatan</label>
+            <textarea name="note" id="note"></textarea>
+        </div>
+          <br>
+          <div>
+            <!-- action button -->
+             <!-- tips shortcut: button:(type reset) -->
+          </div>
+          <div class="grid">
+            <button type="reset">Batal</button>
+            <button type="submit">Simpan</button>
+          </div>
+    </form>
+    </div>
+</body>
+</html>
