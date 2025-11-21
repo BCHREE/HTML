@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  <div class="judul">
+    <h1>Form Feedback</h1>
+    <p>Bantu kami dengan memberikan saran dan pendapatmu!</p>
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Beranda</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="galery.html">Galeri</a>
+    <a href="jadwal.html">Jadwal</a>
+    <a href="feedback.html" class="active">Feedback</a>
+  </div>
+
+  <div class="form-container">
+
+    <form action="https://httpbin.org/post" method="post">
+
+      <div class="form-row">
+        <div class="form-item">
+          <label for="nama">Nama:</label><br>
+          <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+        </div>
+
+          <div class="form-item">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan email kamu">
+          </div>
+        </div>
+
+
+      <label for="asal">Asal Daerah:</label><br>
+      <select id="asal" name="asal">
+        <option value="Purworejo">Purworejo</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Surabaya">Surabaya</option>
+      </select><br><br>
+
+
+      <p>Pilihan Bahasa:</p>
+      <div class="bahasa-row">
+        <div>
+          <label for="english">English</label>
+          <input type="radio" id="english" name="bahasa" value="English">
+        </div>
+          <div>
+            <label for="arabic">Arabic</label>
+            <input type="radio" id="arabic" name="bahasa" value="Arabic">
+          </div>
+            <div>
+              <label for="chinese">Chinese</label>
+              <input type="radio" id="chinese" name="bahasa" value="Chinese">
+            </div>
+          </div>
+
+
+          <label for="pesan">Saran / Pesan:</label><br>
+          <textarea id="pesan" name="pesan" placeholder="Tulis pesan kamu di sini"></textarea><br><br>
+
+          <button type="reset">Batal</button>
+          <button type="submit">Kirim Feedback</button>
+        </div>
+      </form>
+
+      <div class="footer">
+      <p class="bismillah">© - 2025 - Azka Bachri</p>
+    </div>
+    </div>
+    </body>
+    </html>

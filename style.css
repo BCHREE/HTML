@@ -1,0 +1,365 @@
+/* === FONT === */
+@font-face {
+  font-family: "Bismillah Script";
+  src: url(fonts/Bismillah\ Script.ttf);
+}
+.bismillah {
+  font-family: "Bismillah Script";
+  font-size: xx-large;
+}
+
+
+/* === NAVIGASI === */
+.nav {
+width: 90%;
+margin: 10px auto;
+background-color: #f4dddd;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+.nav a {
+padding: 8px;
+margin: 5px;
+color: black;
+background-color: rgb(128, 255, 255);
+border-radius: 10px;
+text-decoration: none;
+}
+.nav a:hover {
+    background-color: #45a049;
+  }
+  .nav a.active {
+    background-color: #aec4ff;
+  }
+
+.container {
+    background-color: #f3d4c3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Judul */
+.judul {
+background-color: #f4dddd;
+border-left: 5px solid blue;
+border-radius: 10px;
+padding: 15px;
+margin: 15px auto;
+width: 90%;
+text-align: center;
+}
+.judul h1 {
+    color: blue;
+}
+.judul p {
+    color: gray;
+}
+
+/* Biodata */
+.avatar {
+    width: 220px; /* atau 250px sesuai kebutuhan */
+  height: 220px; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
+  border-radius: 50%;
+  display: block;
+}
+.isi {
+background-color: #f4dddd;
+border-left: 5px solid blue;
+border-radius: 10px;
+padding: 15px;
+width: 90%;
+margin: auto;
+}
+.isi h2 {
+  margin-bottom: 5px; /* jarak bawah kecil */
+}
+
+.isi h3 {
+      margin-bottom: 5px;
+}
+
+.isi p {
+  margin-bottom: 3px;
+  line-height: 1.2; /* rapatin jarak antarbaris */
+}
+.isi a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: larger;
+}
+
+/* Galery */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Momo+Trust+Display&display=swap');
+.subjudul {
+    text-align: center;
+    font-family: 'Momo Trust Display', sans-serif;
+}
+.foto-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* jarak antar card */
+  justify-content: center;
+  flex-wrap: wrap;
+     margin-left: 85px;
+
+}
+.video-wrapper iframe {
+  width: 100%; /* Penuhi lebar kontainer */
+  max-width: 600px; /* Batas maksimum */
+  height: 340px; /* Tinggi tetap */
+  border-radius: 12px; /* Sudut lembut */
+  border: none; /* Tanpa border */
+  display: block; /* Biar bisa ditengahin */
+  margin: auto; /* Tengah */
+}
+
+.card {
+    background-color: #e5e7eb; /* abu-abu */
+  border-radius: 10px;
+  width: 250px; /* ukuran tiap card */
+  text-align: center;
+}
+.card img {
+  width: 100%;
+   height: 180px;
+    object-fit: cover;
+     display: inline-block;
+     margin: auto;
+}
+.card p {
+  background-color: #e5e7eb; /* warna abu-abu */
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+.vidio {
+
+}
+
+/* feedback */
+.form-container {
+  background-color: #f4dddd;
+border-left: 5px solid blue;
+border-radius: 10px;
+padding: 15px;
+width: 90%;
+margin: auto;
+}
+.form-row {
+  display: flex;
+  flex-direction: column; /* kolom jadi ke bawah */
+}
+input,select,textarea {
+  padding: 10px;
+}
+.form-item {
+  margin-bottom: 15px;
+}
+.bahasa-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #ffe4ff;
+}
+select {
+  width: 45%;
+}
+
+/* jadwal */
+/* Subjudul */
+    .subjudul {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+.table-halaman {
+  width: 95%;
+  margin: 20px auto;
+  overflow-x: auto; /* scroll horizontal untuk mobile */
+}
+table {
+  min-width: 700px;
+background-color: white;
+border-collapse: collapse;
+border-radius: 5px;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+th {
+  background-color: #aec4ff;
+}
+
+/* index */
+.hsi {
+  width: 100px; /* atau 250px sesuai kebutuhan */
+  height: 100px; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
+  display: block;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* === FOOTER === */
+.footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
+
+  
+@media (min-width: 1024px) {
+.container {
+    background-color: #f3d4c3;
+    border-radius: 10px;
+    padding: 10px;
+    width: 92%;
+    margin: auto;
+}
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav a:hover {
+    background-color: #45a049;
+  }
+  .nav a.active {
+    background-color: #aec4ff;
+  }
+  .biodata-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  .biodata-flex h2 {
+    color: #88a8ff;
+  }
+  
+  /* galery */
+  .foto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* jarak antar card */
+  align-items: center;
+}
+
+/* feedback */
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.form-item {
+  margin-right: 40%;
+
+}
+select{
+  width: 90%;
+  margin: auto;
+}
+textarea {
+  padding: 10px;
+  width: 90%;
+
+}
+.form-row input {
+  width: 375%;
+}
+
+/* jadwal */
+.table-halaman {
+  margin: 20px auto;
+}
+table {
+  width: 100%;
+}
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {
+.container {
+    background-color: #f3d4c3;
+    border-radius: 10px;
+    padding: 10px;
+    width: 92%;
+    margin: auto;
+}
+
+  .biodata-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  .biodata-flex h2 {
+    color: #88a8ff;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav a:hover {
+    background-color: #45a049;
+  }
+  .nav a.active {
+    background-color: #aec4ff;
+  }
+
+    /* galery */
+  .foto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* jarak antar card */
+  align-items: center;
+}
+  
+/* feedback */
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.form-item {
+  margin-right: 40%;
+
+}
+select{
+  width: 90%;
+  margin: auto;
+}
+textarea {
+  padding: 10px;
+  width: 90%;
+
+}
+.form-row input {
+  width: 375%;
+}
+}
